@@ -1,19 +1,19 @@
-body{
-    background-color: #659DBD;
+body {
+  background: linear-gradient(to bottom, #659dbd -10%, #bc986a 25%, #8D8741 130%)
 }
 
-header{
-    background-color: #FBEEC1;
+header {
+  background-color: #ccffff;
 }
 
-section{
-    background-color: #DAAD86;
+section {
+  background-color: #daad86;
 }
 
-footer{
-    background-color: #8D8741;
+footer {
+  background-color: #958f4d;
 }
 
-aside{
-    background-color: #8D8741;
+aside {
+  background-color: #659dbd;
 }
