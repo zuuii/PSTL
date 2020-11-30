@@ -40,13 +40,10 @@ section > h2 {
   margin-right: auto;
 }
 
-ul{
-  padding: 0px;
-}
-
 nav > ul {
   list-style-type: none;
   display: flex;
+  padding: 0px;
 }
 
 nav > ul > li {
@@ -90,8 +87,8 @@ svg:hover{
 }
 
 #placeholder {
-  width: 200px;
-  height: 200px;
+  max-width: 500px;
+  max-height: 400px;
   float: left;
   padding-right: 10px;
 }
