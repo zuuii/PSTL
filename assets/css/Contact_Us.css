@@ -1,0 +1,127 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(
+    to bottom right,
+    #659dbd -1%,
+    #bc986a 25%,
+    #8d8741 100%
+  );
+}
+.header {
+  background: linear-gradient(to top left, #659dbd 45%, #ffffff 100%);
+  overflow: hidden;
+  height: 200px;
+}
+.logo {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  float: left;
+  border-right: 2px solid black;
+}
+.logo h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.logo h2 {
+  text-align: center;
+  font-size: 24px;
+}
+.title {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 75px;
+  text-align: center;
+  font-size: 36px;
+  overflow: hidden;
+}
+ul {
+  padding: 0px;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+nav > ul > li {
+  float: left;
+  width: 100%;
+  background: linear-gradient(to left, #ccffff 50%, #659dbd 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+nav > ul > li:hover {
+  background-position: left;
+}
+nav > ul > li a {
+  display: block;
+  columns: #000000;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#intro {
+  font-size: 24px;
+}
+.left-container {
+  margin-left: 16px;
+  width: 400px;
+  padding: 8px;
+  background-color: #daad86;
+}
+.left-container label {
+  width: 150px;
+  text-indent: 8px;
+  color: white;
+  background-color: #3366ff;
+}
+.left-container input {
+  margin-bottom: 16px;
+  width: 300px;
+}
+#enquiry {
+  height: 150px;
+  width: 350px;
+  margin: auto;
+  overflow-y: scroll;
+}
+#button {
+  margin-top: 32px;
+  margin-left: 100px;
+  width: 150px;
+  font-weight: bold;
+  background-color: #ff471a;
+}
+.right-container {
+  float: right;
+  margin-right: 30%;
+  width: 350px;
+}
+.right-container h2 {
+  width: 300px;
+  text-indent: 8px;
+  color: white;
+  background-color: #3366ff;
+}
+.right-container p {
+  padding: 8px;
+  background-color: #daad86;
+}
+.right-container h3 {
+  width: 300px;
+  text-indent: 8px;
+  color: white;
+  background-color: #3366ff;
+}
+footer {
+  margin-top: 48px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #363636;
+}

@@ -1,0 +1,54 @@
+		table {
+			border-collapse: collapse;
+			box-shadow: 8px 12px 6px #8c8c8c;
+			margin: 48px 32px;
+		}
+		th {
+			border-style: solid;
+		}
+		#calendar {
+			padding: 18px;
+			text-align: center;
+			font-size: 24px;
+			font-style: oblique;
+			letter-spacing: 5px;
+			text-shadow: 6px 2px 6px #505050;
+			background: linear-gradient(to bottom right, #daad86 0%, #659dbd 100%);
+		}
+		#date {
+			padding: 6px;
+			background: linear-gradient(to top right, #daad86 0%, #659dbd 100%);
+			opacity: 0.8;
+			text-align: center;
+		}
+		.weekdays td {
+			border: 2px inset red;
+			text-align: center;
+			width: 60px;
+		}
+		.weekdays td:hover {
+			background-color: #daad86;
+		}
+		.days td {
+			padding: 8px;
+			border: 1px inset black;
+			text-align: right;
+			background-color: #659dbd;
+		}
+		.colorCode {
+			margin: 48px 32px;
+			padding: 8px;
+			background-color: #daad86;
+		}
+		.colorBox {
+			width: 20px;
+			height: 20px;
+			margin: 20px;
+			border: 2px solid black;
+		}
+		.name {
+			display: inline-block;
+			margin-left: 50px;
+			font-weight: bold;
+			text-decoration: underline;
+		}
