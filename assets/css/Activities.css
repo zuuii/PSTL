@@ -49,15 +49,18 @@ body {
   padding-bottom: 4px;
   background-color: #daad86;
 }
+
+/* Hover Effect */
 .sport_img {
   width: 500px;
   height: 200px;
   opacity: 0.4;
 }
-
+/* Hover Effect */
 .sport_img:hover {
   opacity: 1;
 }
+
 .left-pic {
   position: relative;
   text-align: center;
@@ -76,6 +79,8 @@ body {
 .right-pic:hover {
   color: white;
 }
+
+/* Text hover effect */
 .sport_name {
   position: absolute;
   font-weight: bold;
